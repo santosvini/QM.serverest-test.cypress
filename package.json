@@ -1,0 +1,22 @@
+{
+  "name": "qm.serverest-test.cypress",
+  "version": "1.0.0",
+  "description": "Teste de API Serverest",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "API",
+    "Automation",
+    "Serverest"
+  ],
+  "author": "Vini Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  },
+  "dependencies": {
+    "cypress": "^13.7.1"
+  }
+}
