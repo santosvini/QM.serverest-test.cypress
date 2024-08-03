@@ -4,7 +4,7 @@ import { fakerPT_BR } from "@faker-js/faker";
 
 var id
 describe('DELETE - Usuários', () => {
-  it('Cadastrar um usário corretamente', () => {
+  it('Cadastrar um usuário corretamente', () => {
     cy.request({
       method: 'POST',
       url: 'https://serverest.dev/usuarios',

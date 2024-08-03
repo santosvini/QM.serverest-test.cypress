@@ -4,7 +4,8 @@
   "description": "Teste de API Serverest",
   "main": "cypress.config.js",
   "scripts": {
-    "test": "cypress run"
+    "cy:test": "cypress run",
+    "cy:open": "cypress open"
   },
   "keywords": [
     "API",

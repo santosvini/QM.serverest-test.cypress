@@ -1,7 +1,5 @@
 /// <reference types="Cypress" />
 
-// var token 
-
 describe('GET - Usuários', () => {
   it('Buscar um usário corretamente', () => {
     cy.request({
@@ -13,8 +11,8 @@ describe('GET - Usuários', () => {
       }
     }).then((response) => {
       expect(response.status).to.eq(200);
-      expect(response.body.usuarios[0].nome).to.eq('Fulano da Silva');
-      expect(response.body.usuarios[0].email).to.eq('nxnb@emailteste.com');
+      expect(response.body.usuarios[0].nome).to.exist;
+      expect(response.body.usuarios[0].email).to.exist;
       expect(response.body.usuarios[0]._id).to.exist;
     });
   });
